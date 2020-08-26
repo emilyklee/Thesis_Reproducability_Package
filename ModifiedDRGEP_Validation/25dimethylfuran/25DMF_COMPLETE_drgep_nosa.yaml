@@ -1,0 +1,510 @@
+model: 25DMF_COMPLETE.cti
+
+targets:
+  - dmf25
+  - o2
+
+retained-species:
+  - o2
+  - n2
+  - dmf25
+
+method: DRGEP
+error: 5.0
+
+autoignition-conditions:
+- kind: constant volume
+  pressure: 20.0
+  temperature: 800
+  end-time: 10.0
+  fuel:
+    dmf25: 1.0
+  oxidizer:
+    o2: 1.0
+    n2: 3.76
+  equivalence-ratio: 0.5
+
+- kind: constant volume
+  pressure: 20.0
+  temperature: 800
+  end-time: 10.0
+  fuel:
+    dmf25: 1.0
+  oxidizer:
+    o2: 1.0
+    n2: 3.76
+  equivalence-ratio: 1.0
+
+- kind: constant volume
+  pressure: 20.0
+  temperature: 800
+  end-time: 10.0
+  fuel:
+    dmf25: 1.0
+  oxidizer:
+    o2: 1.0
+    n2: 3.76
+  equivalence-ratio: 1.5
+
+- kind: constant volume
+  pressure: 40.0
+  temperature: 800
+  end-time: 10.0
+  fuel:
+    dmf25: 1.0
+  oxidizer:
+    o2: 1.0
+    n2: 3.76
+  equivalence-ratio: 0.5
+
+- kind: constant volume
+  pressure: 40.0
+  temperature: 800
+  end-time: 10.0
+  fuel:
+    dmf25: 1.0
+  oxidizer:
+    o2: 1.0
+    n2: 3.76
+  equivalence-ratio: 1.0
+
+- kind: constant volume
+  pressure: 40.0
+  temperature: 800
+  end-time: 10.0
+  fuel:
+    dmf25: 1.0
+  oxidizer:
+    o2: 1.0
+    n2: 3.76
+  equivalence-ratio: 1.5
+
+- kind: constant volume
+  pressure: 60.0
+  temperature: 800
+  end-time: 10.0
+  fuel:
+    dmf25: 1.0
+  oxidizer:
+    o2: 1.0
+    n2: 3.76
+  equivalence-ratio: 0.5
+
+- kind: constant volume
+  pressure: 60.0
+  temperature: 800
+  end-time: 10.0
+  fuel:
+    dmf25: 1.0
+  oxidizer:
+    o2: 1.0
+    n2: 3.76
+  equivalence-ratio: 1.0
+
+- kind: constant volume
+  pressure: 60.0
+  temperature: 800
+  end-time: 10.0
+  fuel:
+    dmf25: 1.0
+  oxidizer:
+    o2: 1.0
+    n2: 3.76
+  equivalence-ratio: 1.5
+
+- kind: constant volume
+  pressure: 20.0
+  temperature: 1000
+  end-time: 10.0
+  fuel:
+    dmf25: 1.0
+  oxidizer:
+    o2: 1.0
+    n2: 3.76
+  equivalence-ratio: 0.5
+
+- kind: constant volume
+  pressure: 20.0
+  temperature: 1000
+  end-time: 10.0
+  fuel:
+    dmf25: 1.0
+  oxidizer:
+    o2: 1.0
+    n2: 3.76
+  equivalence-ratio: 1.0
+
+- kind: constant volume
+  pressure: 20.0
+  temperature: 1000
+  end-time: 10.0
+  fuel:
+    dmf25: 1.0
+  oxidizer:
+    o2: 1.0
+    n2: 3.76
+  equivalence-ratio: 1.5
+
+- kind: constant volume
+  pressure: 40.0
+  temperature: 1000
+  end-time: 10.0
+  fuel:
+    dmf25: 1.0
+  oxidizer:
+    o2: 1.0
+    n2: 3.76
+  equivalence-ratio: 0.5
+
+- kind: constant volume
+  pressure: 40.0
+  temperature: 1000
+  end-time: 10.0
+  fuel:
+    dmf25: 1.0
+  oxidizer:
+    o2: 1.0
+    n2: 3.76
+  equivalence-ratio: 1.0
+
+- kind: constant volume
+  pressure: 40.0
+  temperature: 1000
+  end-time: 10.0
+  fuel:
+    dmf25: 1.0
+  oxidizer:
+    o2: 1.0
+    n2: 3.76
+  equivalence-ratio: 1.5
+
+- kind: constant volume
+  pressure: 60.0
+  temperature: 1000
+  end-time: 10.0
+  fuel:
+    dmf25: 1.0
+  oxidizer:
+    o2: 1.0
+    n2: 3.76
+  equivalence-ratio: 0.5
+
+- kind: constant volume
+  pressure: 60.0
+  temperature: 1000
+  end-time: 10.0
+  fuel:
+    dmf25: 1.0
+  oxidizer:
+    o2: 1.0
+    n2: 3.76
+  equivalence-ratio: 1.0
+
+- kind: constant volume
+  pressure: 60.0
+  temperature: 1000
+  end-time: 10.0
+  fuel:
+    dmf25: 1.0
+  oxidizer:
+    o2: 1.0
+    n2: 3.76
+  equivalence-ratio: 1.5
+
+- kind: constant volume
+  pressure: 20.0
+  temperature: 1200
+  end-time: 10.0
+  fuel:
+    dmf25: 1.0
+  oxidizer:
+    o2: 1.0
+    n2: 3.76
+  equivalence-ratio: 0.5
+
+- kind: constant volume
+  pressure: 20.0
+  temperature: 1200
+  end-time: 10.0
+  fuel:
+    dmf25: 1.0
+  oxidizer:
+    o2: 1.0
+    n2: 3.76
+  equivalence-ratio: 1.0
+
+- kind: constant volume
+  pressure: 20.0
+  temperature: 1200
+  end-time: 10.0
+  fuel:
+    dmf25: 1.0
+  oxidizer:
+    o2: 1.0
+    n2: 3.76
+  equivalence-ratio: 1.5
+
+- kind: constant volume
+  pressure: 40.0
+  temperature: 1200
+  end-time: 10.0
+  fuel:
+    dmf25: 1.0
+  oxidizer:
+    o2: 1.0
+    n2: 3.76
+  equivalence-ratio: 0.5
+
+- kind: constant volume
+  pressure: 40.0
+  temperature: 1200
+  end-time: 10.0
+  fuel:
+    dmf25: 1.0
+  oxidizer:
+    o2: 1.0
+    n2: 3.76
+  equivalence-ratio: 1.0
+
+- kind: constant volume
+  pressure: 40.0
+  temperature: 1200
+  end-time: 10.0
+  fuel:
+    dmf25: 1.0
+  oxidizer:
+    o2: 1.0
+    n2: 3.76
+  equivalence-ratio: 1.5
+
+- kind: constant volume
+  pressure: 60.0
+  temperature: 1200
+  end-time: 10.0
+  fuel:
+    dmf25: 1.0
+  oxidizer:
+    o2: 1.0
+    n2: 3.76
+  equivalence-ratio: 0.5
+
+- kind: constant volume
+  pressure: 60.0
+  temperature: 1200
+  end-time: 10.0
+  fuel:
+    dmf25: 1.0
+  oxidizer:
+    o2: 1.0
+    n2: 3.76
+  equivalence-ratio: 1.0
+
+- kind: constant volume
+  pressure: 60.0
+  temperature: 1200
+  end-time: 10.0
+  fuel:
+    dmf25: 1.0
+  oxidizer:
+    o2: 1.0
+    n2: 3.76
+  equivalence-ratio: 1.5
+
+- kind: constant volume
+  pressure: 20.0
+  temperature: 1400
+  end-time: 10.0
+  fuel:
+    dmf25: 1.0
+  oxidizer:
+    o2: 1.0
+    n2: 3.76
+  equivalence-ratio: 0.5
+
+- kind: constant volume
+  pressure: 20.0
+  temperature: 1400
+  end-time: 10.0
+  fuel:
+    dmf25: 1.0
+  oxidizer:
+    o2: 1.0
+    n2: 3.76
+  equivalence-ratio: 1.0
+
+- kind: constant volume
+  pressure: 20.0
+  temperature: 1400
+  end-time: 10.0
+  fuel:
+    dmf25: 1.0
+  oxidizer:
+    o2: 1.0
+    n2: 3.76
+  equivalence-ratio: 1.5
+
+- kind: constant volume
+  pressure: 40.0
+  temperature: 1400
+  end-time: 10.0
+  fuel:
+    dmf25: 1.0
+  oxidizer:
+    o2: 1.0
+    n2: 3.76
+  equivalence-ratio: 0.5
+
+- kind: constant volume
+  pressure: 40.0
+  temperature: 1400
+  end-time: 10.0
+  fuel:
+    dmf25: 1.0
+  oxidizer:
+    o2: 1.0
+    n2: 3.76
+  equivalence-ratio: 1.0
+
+- kind: constant volume
+  pressure: 40.0
+  temperature: 1400
+  end-time: 10.0
+  fuel:
+    dmf25: 1.0
+  oxidizer:
+    o2: 1.0
+    n2: 3.76
+  equivalence-ratio: 1.5
+
+- kind: constant volume
+  pressure: 60.0
+  temperature: 1400
+  end-time: 10.0
+  fuel:
+    dmf25: 1.0
+  oxidizer:
+    o2: 1.0
+    n2: 3.76
+  equivalence-ratio: 0.5
+
+- kind: constant volume
+  pressure: 60.0
+  temperature: 1400
+  end-time: 10.0
+  fuel:
+    dmf25: 1.0
+  oxidizer:
+    o2: 1.0
+    n2: 3.76
+  equivalence-ratio: 1.0
+
+- kind: constant volume
+  pressure: 60.0
+  temperature: 1400
+  end-time: 10.0
+  fuel:
+    dmf25: 1.0
+  oxidizer:
+    o2: 1.0
+    n2: 3.76
+  equivalence-ratio: 1.5
+
+- kind: constant volume
+  pressure: 20.0
+  temperature: 1600
+  end-time: 10.0
+  fuel:
+    dmf25: 1.0
+  oxidizer:
+    o2: 1.0
+    n2: 3.76
+  equivalence-ratio: 0.5
+
+- kind: constant volume
+  pressure: 20.0
+  temperature: 1600
+  end-time: 10.0
+  fuel:
+    dmf25: 1.0
+  oxidizer:
+    o2: 1.0
+    n2: 3.76
+  equivalence-ratio: 1.0
+
+- kind: constant volume
+  pressure: 20.0
+  temperature: 1600
+  end-time: 10.0
+  fuel:
+    dmf25: 1.0
+  oxidizer:
+    o2: 1.0
+    n2: 3.76
+  equivalence-ratio: 1.5
+
+- kind: constant volume
+  pressure: 40.0
+  temperature: 1600
+  end-time: 10.0
+  fuel:
+    dmf25: 1.0
+  oxidizer:
+    o2: 1.0
+    n2: 3.76
+  equivalence-ratio: 0.5
+
+- kind: constant volume
+  pressure: 40.0
+  temperature: 1600
+  end-time: 10.0
+  fuel:
+    dmf25: 1.0
+  oxidizer:
+    o2: 1.0
+    n2: 3.76
+  equivalence-ratio: 1.0
+
+- kind: constant volume
+  pressure: 40.0
+  temperature: 1600
+  end-time: 10.0
+  fuel:
+    dmf25: 1.0
+  oxidizer:
+    o2: 1.0
+    n2: 3.76
+  equivalence-ratio: 1.5
+
+- kind: constant volume
+  pressure: 60.0
+  temperature: 1600
+  end-time: 10.0
+  fuel:
+    dmf25: 1.0
+  oxidizer:
+    o2: 1.0
+    n2: 3.76
+  equivalence-ratio: 0.5
+
+- kind: constant volume
+  pressure: 60.0
+  temperature: 1600
+  end-time: 10.0
+  fuel:
+    dmf25: 1.0
+  oxidizer:
+    o2: 1.0
+    n2: 3.76
+  equivalence-ratio: 1.0
+
+- kind: constant volume
+  pressure: 60.0
+  temperature: 1600
+  end-time: 10.0
+  fuel:
+    dmf25: 1.0
+  oxidizer:
+    o2: 1.0
+    n2: 3.76
+  equivalence-ratio: 1.5
+

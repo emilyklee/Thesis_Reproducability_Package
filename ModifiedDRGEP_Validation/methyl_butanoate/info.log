@@ -1,0 +1,38 @@
+Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+NumExpr defaulting to 8 threads.
+DRGEP Method:
+Running autoignition simulations for starting model.
+Reusing existing autoignition samples for the starting model.
+Beginning reduction loop
+---------------------------------------------
+Threshold | Number of species | Max error (%)
+Threshold value too high, reducing by factor of 10
+Threshold value too high, reducing by factor of 10
+1.00e-04  |        206        | 0.02
+2.00e-04  |        198        | 0.14
+3.00e-04  |        193        | 0.17
+4.00e-04  |        189        | 0.17
+5.00e-04  |        188        | 3.53
+6.00e-04  |        184        | 3.53
+7.00e-04  |        183        | 3.53
+8.00e-04  |        182        | 9.75
+---------------------------------------------
+Reduction complete.
+Skeletal model: 183 species and 2084 reactions.
+Maximum error: 3.53%
+Final reduced model saved as reduced_183.cti
+Modified DRGEP Method:
+Reusing existing autoignition samples for the starting model.
+Reusing existing autoignition samples for the starting model.
+Beginning reduction loop
+---------------------------------------------
+Threshold | Number of species | Max error (%)
+Threshold value too high, reducing by factor of 10
+1.00e-03  |        196        | 3.51
+2.00e-03  |        187        | 3.46
+3.00e-03  |        183        | 9.30
+---------------------------------------------
+Reduction complete.
+Skeletal model: 187 species and 2100 reactions.
+Maximum error: 3.46%
+Final reduced model saved as reduced_187.cti

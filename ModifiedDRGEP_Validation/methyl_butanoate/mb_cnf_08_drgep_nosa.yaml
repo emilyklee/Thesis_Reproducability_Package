@@ -1,0 +1,510 @@
+model: mb_cnf_08.cti
+
+targets:
+  - MB
+  - O2
+
+retained-species:
+  - O2
+  - N2
+  - MB
+
+method: DRGEP
+error: 5.0
+
+autoignition-conditions:
+- kind: constant volume
+  pressure: 1.0
+  temperature: 800
+  end-time: 10.0
+  fuel:
+    MB: 1.0
+  oxidizer:
+    O2: 1.0
+    N2: 3.76
+  equivalence-ratio: 0.5
+
+- kind: constant volume
+  pressure: 1.0
+  temperature: 800
+  end-time: 10.0
+  fuel:
+    MB: 1.0
+  oxidizer:
+    O2: 1.0
+    N2: 3.76
+  equivalence-ratio: 1.0
+
+- kind: constant volume
+  pressure: 1.0
+  temperature: 800
+  end-time: 10.0
+  fuel:
+    MB: 1.0
+  oxidizer:
+    O2: 1.0
+    N2: 3.76
+  equivalence-ratio: 1.5
+
+- kind: constant volume
+  pressure: 11.0
+  temperature: 800
+  end-time: 10.0
+  fuel:
+    MB: 1.0
+  oxidizer:
+    O2: 1.0
+    N2: 3.76
+  equivalence-ratio: 0.5
+
+- kind: constant volume
+  pressure: 11.0
+  temperature: 800
+  end-time: 10.0
+  fuel:
+    MB: 1.0
+  oxidizer:
+    O2: 1.0
+    N2: 3.76
+  equivalence-ratio: 1.0
+
+- kind: constant volume
+  pressure: 11.0
+  temperature: 800
+  end-time: 10.0
+  fuel:
+    MB: 1.0
+  oxidizer:
+    O2: 1.0
+    N2: 3.76
+  equivalence-ratio: 1.5
+
+- kind: constant volume
+  pressure: 21.0
+  temperature: 800
+  end-time: 10.0
+  fuel:
+    MB: 1.0
+  oxidizer:
+    O2: 1.0
+    N2: 3.76
+  equivalence-ratio: 0.5
+
+- kind: constant volume
+  pressure: 21.0
+  temperature: 800
+  end-time: 10.0
+  fuel:
+    MB: 1.0
+  oxidizer:
+    O2: 1.0
+    N2: 3.76
+  equivalence-ratio: 1.0
+
+- kind: constant volume
+  pressure: 21.0
+  temperature: 800
+  end-time: 10.0
+  fuel:
+    MB: 1.0
+  oxidizer:
+    O2: 1.0
+    N2: 3.76
+  equivalence-ratio: 1.5
+
+- kind: constant volume
+  pressure: 1.0
+  temperature: 1000
+  end-time: 10.0
+  fuel:
+    MB: 1.0
+  oxidizer:
+    O2: 1.0
+    N2: 3.76
+  equivalence-ratio: 0.5
+
+- kind: constant volume
+  pressure: 1.0
+  temperature: 1000
+  end-time: 10.0
+  fuel:
+    MB: 1.0
+  oxidizer:
+    O2: 1.0
+    N2: 3.76
+  equivalence-ratio: 1.0
+
+- kind: constant volume
+  pressure: 1.0
+  temperature: 1000
+  end-time: 10.0
+  fuel:
+    MB: 1.0
+  oxidizer:
+    O2: 1.0
+    N2: 3.76
+  equivalence-ratio: 1.5
+
+- kind: constant volume
+  pressure: 11.0
+  temperature: 1000
+  end-time: 10.0
+  fuel:
+    MB: 1.0
+  oxidizer:
+    O2: 1.0
+    N2: 3.76
+  equivalence-ratio: 0.5
+
+- kind: constant volume
+  pressure: 11.0
+  temperature: 1000
+  end-time: 10.0
+  fuel:
+    MB: 1.0
+  oxidizer:
+    O2: 1.0
+    N2: 3.76
+  equivalence-ratio: 1.0
+
+- kind: constant volume
+  pressure: 11.0
+  temperature: 1000
+  end-time: 10.0
+  fuel:
+    MB: 1.0
+  oxidizer:
+    O2: 1.0
+    N2: 3.76
+  equivalence-ratio: 1.5
+
+- kind: constant volume
+  pressure: 21.0
+  temperature: 1000
+  end-time: 10.0
+  fuel:
+    MB: 1.0
+  oxidizer:
+    O2: 1.0
+    N2: 3.76
+  equivalence-ratio: 0.5
+
+- kind: constant volume
+  pressure: 21.0
+  temperature: 1000
+  end-time: 10.0
+  fuel:
+    MB: 1.0
+  oxidizer:
+    O2: 1.0
+    N2: 3.76
+  equivalence-ratio: 1.0
+
+- kind: constant volume
+  pressure: 21.0
+  temperature: 1000
+  end-time: 10.0
+  fuel:
+    MB: 1.0
+  oxidizer:
+    O2: 1.0
+    N2: 3.76
+  equivalence-ratio: 1.5
+
+- kind: constant volume
+  pressure: 1.0
+  temperature: 1200
+  end-time: 10.0
+  fuel:
+    MB: 1.0
+  oxidizer:
+    O2: 1.0
+    N2: 3.76
+  equivalence-ratio: 0.5
+
+- kind: constant volume
+  pressure: 1.0
+  temperature: 1200
+  end-time: 10.0
+  fuel:
+    MB: 1.0
+  oxidizer:
+    O2: 1.0
+    N2: 3.76
+  equivalence-ratio: 1.0
+
+- kind: constant volume
+  pressure: 1.0
+  temperature: 1200
+  end-time: 10.0
+  fuel:
+    MB: 1.0
+  oxidizer:
+    O2: 1.0
+    N2: 3.76
+  equivalence-ratio: 1.5
+
+- kind: constant volume
+  pressure: 11.0
+  temperature: 1200
+  end-time: 10.0
+  fuel:
+    MB: 1.0
+  oxidizer:
+    O2: 1.0
+    N2: 3.76
+  equivalence-ratio: 0.5
+
+- kind: constant volume
+  pressure: 11.0
+  temperature: 1200
+  end-time: 10.0
+  fuel:
+    MB: 1.0
+  oxidizer:
+    O2: 1.0
+    N2: 3.76
+  equivalence-ratio: 1.0
+
+- kind: constant volume
+  pressure: 11.0
+  temperature: 1200
+  end-time: 10.0
+  fuel:
+    MB: 1.0
+  oxidizer:
+    O2: 1.0
+    N2: 3.76
+  equivalence-ratio: 1.5
+
+- kind: constant volume
+  pressure: 21.0
+  temperature: 1200
+  end-time: 10.0
+  fuel:
+    MB: 1.0
+  oxidizer:
+    O2: 1.0
+    N2: 3.76
+  equivalence-ratio: 0.5
+
+- kind: constant volume
+  pressure: 21.0
+  temperature: 1200
+  end-time: 10.0
+  fuel:
+    MB: 1.0
+  oxidizer:
+    O2: 1.0
+    N2: 3.76
+  equivalence-ratio: 1.0
+
+- kind: constant volume
+  pressure: 21.0
+  temperature: 1200
+  end-time: 10.0
+  fuel:
+    MB: 1.0
+  oxidizer:
+    O2: 1.0
+    N2: 3.76
+  equivalence-ratio: 1.5
+
+- kind: constant volume
+  pressure: 1.0
+  temperature: 1400
+  end-time: 10.0
+  fuel:
+    MB: 1.0
+  oxidizer:
+    O2: 1.0
+    N2: 3.76
+  equivalence-ratio: 0.5
+
+- kind: constant volume
+  pressure: 1.0
+  temperature: 1400
+  end-time: 10.0
+  fuel:
+    MB: 1.0
+  oxidizer:
+    O2: 1.0
+    N2: 3.76
+  equivalence-ratio: 1.0
+
+- kind: constant volume
+  pressure: 1.0
+  temperature: 1400
+  end-time: 10.0
+  fuel:
+    MB: 1.0
+  oxidizer:
+    O2: 1.0
+    N2: 3.76
+  equivalence-ratio: 1.5
+
+- kind: constant volume
+  pressure: 11.0
+  temperature: 1400
+  end-time: 10.0
+  fuel:
+    MB: 1.0
+  oxidizer:
+    O2: 1.0
+    N2: 3.76
+  equivalence-ratio: 0.5
+
+- kind: constant volume
+  pressure: 11.0
+  temperature: 1400
+  end-time: 10.0
+  fuel:
+    MB: 1.0
+  oxidizer:
+    O2: 1.0
+    N2: 3.76
+  equivalence-ratio: 1.0
+
+- kind: constant volume
+  pressure: 11.0
+  temperature: 1400
+  end-time: 10.0
+  fuel:
+    MB: 1.0
+  oxidizer:
+    O2: 1.0
+    N2: 3.76
+  equivalence-ratio: 1.5
+
+- kind: constant volume
+  pressure: 21.0
+  temperature: 1400
+  end-time: 10.0
+  fuel:
+    MB: 1.0
+  oxidizer:
+    O2: 1.0
+    N2: 3.76
+  equivalence-ratio: 0.5
+
+- kind: constant volume
+  pressure: 21.0
+  temperature: 1400
+  end-time: 10.0
+  fuel:
+    MB: 1.0
+  oxidizer:
+    O2: 1.0
+    N2: 3.76
+  equivalence-ratio: 1.0
+
+- kind: constant volume
+  pressure: 21.0
+  temperature: 1400
+  end-time: 10.0
+  fuel:
+    MB: 1.0
+  oxidizer:
+    O2: 1.0
+    N2: 3.76
+  equivalence-ratio: 1.5
+
+- kind: constant volume
+  pressure: 1.0
+  temperature: 1600
+  end-time: 10.0
+  fuel:
+    MB: 1.0
+  oxidizer:
+    O2: 1.0
+    N2: 3.76
+  equivalence-ratio: 0.5
+
+- kind: constant volume
+  pressure: 1.0
+  temperature: 1600
+  end-time: 10.0
+  fuel:
+    MB: 1.0
+  oxidizer:
+    O2: 1.0
+    N2: 3.76
+  equivalence-ratio: 1.0
+
+- kind: constant volume
+  pressure: 1.0
+  temperature: 1600
+  end-time: 10.0
+  fuel:
+    MB: 1.0
+  oxidizer:
+    O2: 1.0
+    N2: 3.76
+  equivalence-ratio: 1.5
+
+- kind: constant volume
+  pressure: 11.0
+  temperature: 1600
+  end-time: 10.0
+  fuel:
+    MB: 1.0
+  oxidizer:
+    O2: 1.0
+    N2: 3.76
+  equivalence-ratio: 0.5
+
+- kind: constant volume
+  pressure: 11.0
+  temperature: 1600
+  end-time: 10.0
+  fuel:
+    MB: 1.0
+  oxidizer:
+    O2: 1.0
+    N2: 3.76
+  equivalence-ratio: 1.0
+
+- kind: constant volume
+  pressure: 11.0
+  temperature: 1600
+  end-time: 10.0
+  fuel:
+    MB: 1.0
+  oxidizer:
+    O2: 1.0
+    N2: 3.76
+  equivalence-ratio: 1.5
+
+- kind: constant volume
+  pressure: 21.0
+  temperature: 1600
+  end-time: 10.0
+  fuel:
+    MB: 1.0
+  oxidizer:
+    O2: 1.0
+    N2: 3.76
+  equivalence-ratio: 0.5
+
+- kind: constant volume
+  pressure: 21.0
+  temperature: 1600
+  end-time: 10.0
+  fuel:
+    MB: 1.0
+  oxidizer:
+    O2: 1.0
+    N2: 3.76
+  equivalence-ratio: 1.0
+
+- kind: constant volume
+  pressure: 21.0
+  temperature: 1600
+  end-time: 10.0
+  fuel:
+    MB: 1.0
+  oxidizer:
+    O2: 1.0
+    N2: 3.76
+  equivalence-ratio: 1.5
+

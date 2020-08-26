@@ -1,0 +1,25 @@
+model: gri30.cti
+
+targets:
+  - CH4
+  - O2
+
+retained-species:
+  - O2
+  - N2
+  - CH4
+
+method: DRGEP
+error: 5.0
+
+autoignition-conditions:
+- kind: constant volume
+  pressure: 1.0
+  temperature: 1000
+  end-time: 10.0
+  fuel:
+    CH4: 1.0
+  oxidizer:
+    O2: 1.0
+    N2: 3.76
+  equivalence-ratio: 1.0

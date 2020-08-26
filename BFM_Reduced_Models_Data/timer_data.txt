@@ -1,0 +1,5 @@
+Case0 simulation time: 85.2467851638794 seconds 
+Case1 simulation time: 88.63467597961426 seconds 
+Case2 simulation time: 14.76795506477356 seconds 
+Case3 simulation time: 71.81136298179626 seconds 
+Case4 simulation time: 14.512303113937378 seconds 
